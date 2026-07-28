@@ -1,43 +1,70 @@
 # Circle Studios Dev
 
-Internal infrastructure, client projects, and tooling for Circle Studios.
+Internal infrastructure, client projects, websites, and reusable systems for Circle Studios.
 
-## Client projects
+## Client systems
 
-| Repo | Description | Stack | Hosting |
-|------|-------------|-------|---------|
-| [client-amy-nelson](https://github.com/circle-studios-dev/client-amy-nelson) | Student DB + course ops for Amy Nelson | FastAPI + React + SQLite | Fly.io |
-| [client-endless-access-student-db](https://github.com/circle-studios-dev/client-endless-access-student-db) | Student enrollment + activity logging for Endless Access | FastAPI + SQLite | Fly.io |
-| [client-every-student-db](https://github.com/circle-studios-dev/client-every-student-db) | Student enrollment DB for Every | FastAPI + React + SQLite | Fly.io |
-| [client-ruben-hassid](https://github.com/circle-studios-dev/client-ruben-hassid) | Student DB + email capture + exercise guide for Ruben Hassid | FastAPI + React + SQLite | Fly.io |
+| Repository | Purpose |
+|---|---|
+| [client-amy-nelson](https://github.com/circle-studios-dev/client-amy-nelson) | Student database and course operations for Amy Nelson |
+| [client-endless-access-student-db](https://github.com/circle-studios-dev/client-endless-access-student-db) | Student enrollment and activity logging for Endless Access |
+| [client-every-student-db](https://github.com/circle-studios-dev/client-every-student-db) | Student enrollment database for Every |
+| [client-ruben-hassid](https://github.com/circle-studios-dev/client-ruben-hassid) | Student database, email capture, and exercise guide for Ruben Hassid |
+
+## Client websites
+
+| Repository | Purpose |
+|---|---|
+| [website-amy-nelson](https://github.com/circle-studios-dev/website-amy-nelson) | Amy Nelson website |
+| [website-ruben-hassid](https://github.com/circle-studios-dev/website-ruben-hassid) | Ruben Hassid website |
 
 ## Internal apps
 
-| Repo | Description | Stack | Hosting |
-|------|-------------|-------|---------|
-| [internal-ops-dashboard](https://github.com/circle-studios-dev/internal-ops-dashboard) | Process tracker, course calendar, client management | FastAPI + React | Fly.io |
-| [internal-client-dashboard](https://github.com/circle-studios-dev/internal-client-dashboard) | Client-facing dashboard (proxied via ops dashboard) | FastAPI + React | Fly.io |
-| [internal-product-overview-app](https://github.com/circle-studios-dev/internal-product-overview-app) | LLM-powered form for generating course product overviews | FastAPI + React + Claude AI | Fly.io |
-| [internal-research-insights](https://github.com/circle-studios-dev/internal-research-insights) | Synthesizes research call notes from Notion using Claude | FastAPI + Anthropic | Fly.io |
-| [internal-bpra-dashboard](https://github.com/circle-studios-dev/internal-bpra-dashboard) | Simple dashboard for BPRA course | Python server + static HTML | Fly.io |
+| Repository | Purpose |
+|---|---|
+| [internal-bpra-dashboard](https://github.com/circle-studios-dev/internal-bpra-dashboard) | BPRA course dashboard |
+| [internal-client-dashboard](https://github.com/circle-studios-dev/internal-client-dashboard) | Client-facing dashboard proxied through the operations dashboard |
+| [internal-ops-dashboard](https://github.com/circle-studios-dev/internal-ops-dashboard) | Process tracking, course calendar, and client management |
+| [internal-product-overview-app](https://github.com/circle-studios-dev/internal-product-overview-app) | AI-assisted course product-overview generation |
+| [internal-research-insights](https://github.com/circle-studios-dev/internal-research-insights) | Research-call synthesis from Notion |
 
-## Infrastructure
+## Infrastructure and templates
 
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [infra-student-db-template](https://github.com/circle-studios-dev/infra-student-db-template) | Reusable boilerplate for new client student DBs | FastAPI + React + SQLite |
-| [infra-endless-cohort-snapshot](https://github.com/circle-studios-dev/infra-endless-cohort-snapshot) | Cohort snapshot utility for Endless Access | Static HTML + Python server |
+| Repository | Purpose |
+|---|---|
+| [demand-testing-funnel-template](https://github.com/circle-studios-dev/demand-testing-funnel-template) | Reusable demand-testing funnel |
+| [infra-endless-cohort-snapshot](https://github.com/circle-studios-dev/infra-endless-cohort-snapshot) | Cohort snapshot utility for Endless Access |
+| [infra-student-db-template](https://github.com/circle-studios-dev/infra-student-db-template) | Reusable client student-database boilerplate |
 
 ## Tools
 
-| Repo | Description | Stack |
-|------|-------------|-------|
-| [tool-circle-mcp](https://github.com/circle-studios-dev/tool-circle-mcp) | MCP server for Circle.so API | Python MCP server |
-| [tool-wistia-mcp](https://github.com/circle-studios-dev/tool-wistia-mcp) | MCP server for Wistia video platform | Python MCP server |
-| [tool-remotion-explore](https://github.com/circle-studios-dev/tool-remotion-explore) | Video composition and highlight reel generation | Remotion (TypeScript) |
+| Repository | Purpose |
+|---|---|
+| [tool-circle-mcp](https://github.com/circle-studios-dev/tool-circle-mcp) | MCP server for the Circle API |
+| [tool-remotion-explore](https://github.com/circle-studios-dev/tool-remotion-explore) | Video composition and highlight-reel experiments |
+| [tool-wistia-mcp](https://github.com/circle-studios-dev/tool-wistia-mcp) | MCP server for Wistia |
 
-## Ops
+## Studio systems
 
-| Repo | Description |
-|------|-------------|
-| [ops-circle-studios](https://github.com/circle-studios-dev/ops-circle-studios) | Circle Studios methodology, operational docs, scripts, and Claude Code skills |
+| Repository | Purpose |
+|---|---|
+| [circle-studios-skills](https://github.com/circle-studios-dev/circle-studios-skills) | Reviewed team/recovery mirror of the canonical vault skills |
+| [ops-circle-studios](https://github.com/circle-studios-dev/ops-circle-studios) | Shared operations context, scripts, and course-delivery skills; separate from Linart's vault-skill mirror |
+
+## Organization maintenance
+
+| Repository | Purpose |
+|---|---|
+| [.github](https://github.com/circle-studios-dev/.github) | Organization profile and shared repository metadata |
+| [bruce](https://github.com/circle-studios-dev/bruce) | Legacy name awaiting an explicit owner and classification decision |
+
+## Repository conventions
+
+- `client-<client>-<system>` — client operational systems and applications
+- `website-<client>` — client websites
+- `internal-<system>` — internal Studio applications
+- `infra-<capability>` or `<purpose>-template` — reusable infrastructure and templates
+- `tool-<capability>` — reusable tools and experiments
+- `ops-<area>` — Studio operations and methodology
+
+New repositories are private by default. Put durable Circle Studios and client work in this organization; use personal GitHub only for genuinely personal projects. Keep each repository's README and the Circle Notion Team Brain record pointed at the canonical live artifact.
