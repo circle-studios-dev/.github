@@ -9,6 +9,7 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 | [client-amy-nelson](https://github.com/circle-studios-dev/client-amy-nelson) | Student database and course operations for Amy Nelson |
 | [client-endless-access-student-db](https://github.com/circle-studios-dev/client-endless-access-student-db) | Student enrollment and activity logging for Endless Access |
 | [client-every-student-db](https://github.com/circle-studios-dev/client-every-student-db) | Student enrollment database for Every |
+| [client-maya-raichoora](https://github.com/circle-studios-dev/client-maya-raichoora) | Umbrella source for Maya Raichoora client builds, prototypes, and project phases |
 | [client-ruben-hassid](https://github.com/circle-studios-dev/client-ruben-hassid) | Student database, email capture, and exercise guide for Ruben Hassid |
 
 ## Client websites
@@ -60,11 +61,12 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 
 ## Repository conventions
 
-- `client-<client>-<system>` — client operational systems and applications
-- `website-<client>` — client websites
+- `client-<client>` — default private umbrella source for one client's builds, organized under `projects/<phase-or-project>/<build>/`
+- `client-<client>-<system>` — dedicated client operational system when it needs an independent lifecycle
+- `website-<client>` — dedicated production client website
 - `internal-<system>` — internal Studio applications
 - `infra-<capability>` or `<purpose>-template` — reusable infrastructure and templates
 - `tool-<capability>` — reusable tools and experiments
 - `ops-<area>` — Studio operations and methodology
 
-New repositories are private by default. Put durable Circle Studios and client work in this organization; use personal GitHub only for genuinely personal projects. Keep each repository's README and the Circle Notion Team Brain record pointed at the canonical live artifact.
+New repositories are private by default. Put durable Circle Studios and client work in this organization; use personal GitHub only for genuinely personal projects. GitHub is canonical for executable build source, while the vault remains canonical for objectives, decisions, and project context. Every build push must refresh the repository README and CHANGELOG so a teammate or AI can continue from zero context.
