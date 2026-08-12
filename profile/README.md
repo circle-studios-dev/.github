@@ -10,6 +10,7 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 | [client-endless-access-student-db](https://github.com/circle-studios-dev/client-endless-access-student-db) | Student enrollment and activity logging for Endless Access |
 | [client-every-student-db](https://github.com/circle-studios-dev/client-every-student-db) | Student enrollment database for Every |
 | [client-maya-raichoora](https://github.com/circle-studios-dev/client-maya-raichoora) | Umbrella source for Maya Raichoora client builds, prototypes, and project phases |
+| [client-realpars](https://github.com/circle-studios-dev/client-realpars) | Umbrella source for RealPars client builds, beginning with the PLC cohort splash review |
 | [client-ruben-hassid](https://github.com/circle-studios-dev/client-ruben-hassid) | Student database, email capture, and exercise guide for Ruben Hassid |
 
 ## Client websites
