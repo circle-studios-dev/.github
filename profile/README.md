@@ -7,6 +7,7 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 | Repository | Purpose |
 |---|---|
 | [client-adrian-per](https://github.com/circle-studios-dev/client-adrian-per) | Private source for Adrian Per / Content College web projects |
+| [client-adrian-per-challenge-sync](https://github.com/circle-studios-dev/client-adrian-per-challenge-sync) | Cloudflare Worker backing signup forms on the Content College Blueprint/Academy Challenge landing pages |
 | [client-amy-nelson](https://github.com/circle-studios-dev/client-amy-nelson) | Student database and course operations for Amy Nelson |
 | [client-azul-wells](https://github.com/circle-studios-dev/client-azul-wells) | Web pages and funnel integrations for Azul Wells |
 | [client-endless-access-student-db](https://github.com/circle-studios-dev/client-endless-access-student-db) | Student enrollment and activity logging for Endless Access |
@@ -15,13 +16,12 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 | [client-mike-rizzo](https://github.com/circle-studios-dev/client-mike-rizzo) | Executable builds for Mike Rizzo / MarketingOps |
 | [client-realpars](https://github.com/circle-studios-dev/client-realpars) | Umbrella source for RealPars client builds, beginning with the PLC cohort splash review |
 | [client-ruben-hassid](https://github.com/circle-studios-dev/client-ruben-hassid) | Student database, email capture, and exercise guide for Ruben Hassid |
-| [content-college-challenge-sync](https://github.com/circle-studios-dev/content-college-challenge-sync) | Cloudflare Worker backing signup forms on the Content College Blueprint/Academy Challenge landing pages (Adrian Per) |
 
 ## Client websites
 
 | Repository | Purpose |
 |---|---|
-| [content-college-site](https://github.com/circle-studios-dev/content-college-site) | Isolated website replica for Content College (Adrian Per) |
+| [website-adrian-per](https://github.com/circle-studios-dev/website-adrian-per) | Isolated website replica for Content College |
 | [website-amy-nelson](https://github.com/circle-studios-dev/website-amy-nelson) | Amy Nelson website |
 | [website-ruben-hassid](https://github.com/circle-studios-dev/website-ruben-hassid) | Ruben Hassid website |
 
