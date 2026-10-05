@@ -6,17 +6,22 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 
 | Repository | Purpose |
 |---|---|
+| [client-adrian-per](https://github.com/circle-studios-dev/client-adrian-per) | Private source for Adrian Per / Content College web projects |
 | [client-amy-nelson](https://github.com/circle-studios-dev/client-amy-nelson) | Student database and course operations for Amy Nelson |
+| [client-azul-wells](https://github.com/circle-studios-dev/client-azul-wells) | Web pages and funnel integrations for Azul Wells |
 | [client-endless-access-student-db](https://github.com/circle-studios-dev/client-endless-access-student-db) | Student enrollment and activity logging for Endless Access |
 | [client-every-student-db](https://github.com/circle-studios-dev/client-every-student-db) | Student enrollment database for Every |
 | [client-maya-raichoora](https://github.com/circle-studios-dev/client-maya-raichoora) | Umbrella source for Maya Raichoora client builds, prototypes, and project phases |
+| [client-mike-rizzo](https://github.com/circle-studios-dev/client-mike-rizzo) | Executable builds for Mike Rizzo / MarketingOps |
 | [client-realpars](https://github.com/circle-studios-dev/client-realpars) | Umbrella source for RealPars client builds, beginning with the PLC cohort splash review |
 | [client-ruben-hassid](https://github.com/circle-studios-dev/client-ruben-hassid) | Student database, email capture, and exercise guide for Ruben Hassid |
+| [content-college-challenge-sync](https://github.com/circle-studios-dev/content-college-challenge-sync) | Cloudflare Worker backing signup forms on the Content College Blueprint/Academy Challenge landing pages (Adrian Per) |
 
 ## Client websites
 
 | Repository | Purpose |
 |---|---|
+| [content-college-site](https://github.com/circle-studios-dev/content-college-site) | Isolated website replica for Content College (Adrian Per) |
 | [website-amy-nelson](https://github.com/circle-studios-dev/website-amy-nelson) | Amy Nelson website |
 | [website-ruben-hassid](https://github.com/circle-studios-dev/website-ruben-hassid) | Ruben Hassid website |
 
@@ -24,6 +29,7 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 
 | Repository | Purpose |
 |---|---|
+| [internal-blueprints](https://github.com/circle-studios-dev/internal-blueprints) | Reverse-engineering successful Circle digital businesses into reusable blueprints |
 | [internal-bpra-dashboard](https://github.com/circle-studios-dev/internal-bpra-dashboard) | BPRA course dashboard |
 | [internal-client-dashboard](https://github.com/circle-studios-dev/internal-client-dashboard) | Client-facing dashboard proxied through the operations dashboard |
 | [internal-ops-dashboard](https://github.com/circle-studios-dev/internal-ops-dashboard) | Process tracking, course calendar, and client management |
@@ -52,6 +58,7 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 |---|---|
 | [circle-studios-skills](https://github.com/circle-studios-dev/circle-studios-skills) | Reviewed team/recovery mirror of the canonical vault skills |
 | [ops-circle-studios](https://github.com/circle-studios-dev/ops-circle-studios) | Shared operations context, scripts, and course-delivery skills; separate from Linart's vault-skill mirror |
+| [studios-automations](https://github.com/circle-studios-dev/studios-automations) | Cloudflare Workflows-based automation platform — a code-driven alternative to Zapier for client automations |
 
 ## Organization maintenance
 
@@ -59,6 +66,7 @@ Internal infrastructure, client projects, websites, and reusable systems for Cir
 |---|---|
 | [.github](https://github.com/circle-studios-dev/.github) | Organization profile and shared repository metadata |
 | [bruce](https://github.com/circle-studios-dev/bruce) | Legacy name awaiting an explicit owner and classification decision |
+| [ruben-hassid-slack-archive](https://github.com/circle-studios-dev/ruben-hassid-slack-archive) | Preservation archive of the Circle Studios × Ruben Hassid Slack channels |
 
 ## Repository conventions
 
